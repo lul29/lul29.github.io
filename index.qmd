@@ -1,5 +1,6 @@
 ---
 title: "Education Research Group"
+pagetitle: "Louis Leblond -- Education Research Group"
 ---
 
 ::: {.hero-section}
