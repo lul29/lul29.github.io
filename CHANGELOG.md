@@ -6,12 +6,14 @@ Update it after every meaningful unit of work.
 
 ---
 
-## 2026-06-19 -- Git init + GitHub Pages deploy setup
+## 2026-06-19 -- Git init + GitHub Pages deployment (LIVE)
 
-- Initialized git repo and pushed source to GitHub: `lul29/lul29.github.io` (user page, will serve at https://lul29.github.io once Pages is enabled)
-- Added `.github/workflows/publish.yml`: GitHub Action renders Quarto and publishes built site to a `gh-pages` branch on every push to `main` (uses `quarto-dev/quarto-actions`)
-- Site is intentionally NOT live yet -- Pages source must be set to the `gh-pages` branch in repo Settings to publish (held back for cosmetic work)
+- Initialized git repo and pushed source to GitHub: `lul29/lul29.github.io`
+- Added `.github/workflows/publish.yml`: GitHub Action renders Quarto and publishes the built site to the `gh-pages` branch on every push to `main` (uses `quarto-dev/quarto-actions`)
+- Seeded an empty `gh-pages` branch first (the action errors if the branch does not yet exist)
+- **Site is LIVE at https://lul29.github.io/** -- a repo named `<user>.github.io` is a GitHub user page, and Pages CANNOT be disabled on it (GitHub returns 422). It was auto-enabled serving raw source from `main`; switched the Pages source to the `gh-pages` branch so it serves the rendered HTML. To truly hide a WIP, the only options are a custom unlinked domain, a different repo name (project page, still public), or a private repo on a paid plan.
 - Fixed contact email: `npb2@psu.edu` -> `lul29@psu.edu` in `_quarto.yml` navbar and `people.qmd`
+- Cosmetic polish still pending before wider sharing (see Known limitations)
 
 ---
 
@@ -41,5 +43,7 @@ Update it after every meaningful unit of work.
 
 - Lab material download links (docx, zip) still point to sites.psu.edu (will break if old site is taken down)
 - Poster/talk PDF links still point to sites.psu.edu
-- No hosting set up yet (GitHub Pages, Netlify, etc.)
+- Hosting done: GitHub Pages at https://lul29.github.io/ (auto-deploys on push to `main`)
 - Tyler Lowman's project description is blank (needs input)
+- `images/people/ying-wang.jpg` exists but no matching person card in `people.qmd` (orphan image)
+- Cosmetic pass still needed before sharing the URL widely
