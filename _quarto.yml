@@ -14,8 +14,6 @@ website:
         href: people.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "iOLab"
-        href: iolab.qmd
     right:
       - icon: envelope
         href: mailto:lul29@psu.edu

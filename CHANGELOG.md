@@ -14,6 +14,8 @@ Update it after every meaningful unit of work.
 - **Site is LIVE at https://lul29.github.io/** -- a repo named `<user>.github.io` is a GitHub user page, and Pages CANNOT be disabled on it (GitHub returns 422). It was auto-enabled serving raw source from `main`; switched the Pages source to the `gh-pages` branch so it serves the rendered HTML. To truly hide a WIP, the only options are a custom unlinked domain, a different repo name (project page, still public), or a private repo on a paid plan.
 - Fixed contact email: `npb2@psu.edu` -> `lul29@psu.edu` in `_quarto.yml` navbar and `people.qmd`
 - Cosmetic polish still pending before wider sharing (see Known limitations)
+- Removed the iOLab tab: deleted `iolab.qmd` and its navbar entry (homepage still uses `images/iolab.jpg` as the device photo; publication titles still mention iOLab)
+- Dropped orphan image `images/people/ying-wang.jpg`
 
 ---
 
