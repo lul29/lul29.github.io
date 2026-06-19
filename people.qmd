@@ -24,20 +24,6 @@ The long-term objective of his education research program is to help students be
 
 ::: {.person-card}
 
-![Julian Mintz](images/people/julian-mintz.jpg)
-
-::: {.person-info}
-### Julian Mintz
-
-**Graduate student in Physics**
-
-Current interests: Learning strategies studies, online education, AI, accessibility, neurodivergence and inclusive teaching.
-:::
-
-:::
-
-::: {.person-card}
-
 ![Jude Sullivan](images/people/jude-sullivan.jpg)
 
 ::: {.person-info}
@@ -66,20 +52,6 @@ Current project: Barriers and enablers for non-traditional adult learners in asy
 
 ::: {.person-card}
 
-![Heer Patel](images/people/heer-patel.jpeg)
-
-::: {.person-info}
-### Heer Patel
-
-**Undergraduate student, Penn State University**
-
-Current project: Learning Strategy Survey Validation.
-:::
-
-:::
-
-::: {.person-card}
-
 ![Tyler Lowman](images/people/tyler-lowman.jpg)
 
 ::: {.person-info}
@@ -87,11 +59,38 @@ Current project: Learning Strategy Survey Validation.
 
 **Graduate student in Physics**
 
+Current project: Study of the Qualifying Exam Change Process
 :::
 
 :::
 
 ## Former Students
+
+::: {.person-card}
+
+![Julian Mintz](images/people/julian-mintz.jpg)
+
+::: {.person-info}
+### Julian Mintz
+
+**M.Sc. 2026 (co-advisor with Eric Hudson)**
+
+:::
+
+:::
+
+::: {.person-card}
+
+![Heer Patel](images/people/heer-patel.jpeg)
+
+::: {.person-info}
+### Heer Patel
+
+**Undergraduate student, Penn State University**
+
+:::
+
+:::
 
 ::: {.person-card}
 
