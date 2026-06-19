@@ -65,9 +65,24 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.06);
 }
 
+/* Quarto wraps standalone images in a centered <figure> and turns the alt
+   text into a <figcaption>. Neutralize that wrapper inside person cards so the
+   photo behaves as a simple flex child, and hide the auto-generated caption. */
+.person-card .quarto-figure,
+.person-card figure,
+.person-card figure > p {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.person-card figcaption {
+  display: none;
+}
+
 .person-card img {
-  width: 120px;
-  height: 120px;
+  width: 120px !important;
+  height: 120px !important;
+  max-width: none;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
