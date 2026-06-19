@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#changelog" id="toc-changelog" class="nav-link active" data-scroll-target="#changelog">Changelog</a>
   <ul class="collapse">
-  <li><a href="#git-init-github-pages-deploy-setup" id="toc-git-init-github-pages-deploy-setup" class="nav-link" data-scroll-target="#git-init-github-pages-deploy-setup">2026-06-19 – Git init + GitHub Pages deploy setup</a></li>
+  <li><a href="#git-init-github-pages-deployment-live" id="toc-git-init-github-pages-deployment-live" class="nav-link" data-scroll-target="#git-init-github-pages-deployment-live">2026-06-19 – Git init + GitHub Pages deployment (LIVE)</a></li>
   <li><a href="#initial-quarto-site" id="toc-initial-quarto-site" class="nav-link" data-scroll-target="#initial-quarto-site">2026-03-27 – Initial Quarto site</a></li>
   <li><a href="#failed-approaches-dead-ends" id="toc-failed-approaches-dead-ends" class="nav-link" data-scroll-target="#failed-approaches-dead-ends">Failed approaches / dead ends</a></li>
   <li><a href="#known-limitations" id="toc-known-limitations" class="nav-link" data-scroll-target="#known-limitations">Known limitations</a></li>
@@ -156,13 +156,15 @@ ul.task-list li input[type="checkbox"] {
 <h1>Changelog</h1>
 <p>All notable changes to the website project are documented here. This file serves as portable long-term memory across development sessions. Update it after every meaningful unit of work.</p>
 <hr>
-<section id="git-init-github-pages-deploy-setup" class="level2">
-<h2 class="anchored" data-anchor-id="git-init-github-pages-deploy-setup">2026-06-19 – Git init + GitHub Pages deploy setup</h2>
+<section id="git-init-github-pages-deployment-live" class="level2">
+<h2 class="anchored" data-anchor-id="git-init-github-pages-deployment-live">2026-06-19 – Git init + GitHub Pages deployment (LIVE)</h2>
 <ul>
-<li>Initialized git repo and pushed source to GitHub: <code>lul29/lul29.github.io</code> (user page, will serve at https://lul29.github.io once Pages is enabled)</li>
-<li>Added <code>.github/workflows/publish.yml</code>: GitHub Action renders Quarto and publishes built site to a <code>gh-pages</code> branch on every push to <code>main</code> (uses <code>quarto-dev/quarto-actions</code>)</li>
-<li>Site is intentionally NOT live yet – Pages source must be set to the <code>gh-pages</code> branch in repo Settings to publish (held back for cosmetic work)</li>
+<li>Initialized git repo and pushed source to GitHub: <code>lul29/lul29.github.io</code></li>
+<li>Added <code>.github/workflows/publish.yml</code>: GitHub Action renders Quarto and publishes the built site to the <code>gh-pages</code> branch on every push to <code>main</code> (uses <code>quarto-dev/quarto-actions</code>)</li>
+<li>Seeded an empty <code>gh-pages</code> branch first (the action errors if the branch does not yet exist)</li>
+<li><strong>Site is LIVE at https://lul29.github.io/</strong> – a repo named <code>&lt;user&gt;.github.io</code> is a GitHub user page, and Pages CANNOT be disabled on it (GitHub returns 422). It was auto-enabled serving raw source from <code>main</code>; switched the Pages source to the <code>gh-pages</code> branch so it serves the rendered HTML. To truly hide a WIP, the only options are a custom unlinked domain, a different repo name (project page, still public), or a private repo on a paid plan.</li>
 <li>Fixed contact email: <code>npb2@psu.edu</code> -&gt; <code>lul29@psu.edu</code> in <code>_quarto.yml</code> navbar and <code>people.qmd</code></li>
+<li>Cosmetic polish still pending before wider sharing (see Known limitations)</li>
 </ul>
 <hr>
 </section>
@@ -194,8 +196,10 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Lab material download links (docx, zip) still point to sites.psu.edu (will break if old site is taken down)</li>
 <li>Poster/talk PDF links still point to sites.psu.edu</li>
-<li>No hosting set up yet (GitHub Pages, Netlify, etc.)</li>
+<li>Hosting done: GitHub Pages at https://lul29.github.io/ (auto-deploys on push to <code>main</code>)</li>
 <li>Tyler Lowman’s project description is blank (needs input)</li>
+<li><code>images/people/ying-wang.jpg</code> exists but no matching person card in <code>people.qmd</code> (orphan image)</li>
+<li>Cosmetic pass still needed before sharing the URL widely</li>
 </ul>
 
 
