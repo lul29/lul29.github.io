@@ -1,0 +1,137 @@
+/* Penn State brand colors */
+:root {
+  --psu-blue: #001E44;
+  --psu-light-blue: #009CDE;
+  --psu-white: #FFFFFF;
+  --psu-light-gray: #F5F5F5;
+}
+
+/* Hero section on homepage */
+.hero-section {
+  background: linear-gradient(135deg, var(--psu-blue) 0%, #003366 100%);
+  color: var(--psu-white);
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.hero-section h2 {
+  color: var(--psu-light-blue);
+  border-bottom: none;
+  margin-top: 0;
+}
+
+.hero-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Card layout for research areas and people */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  background: var(--psu-white);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: var(--psu-blue);
+  margin-top: 0;
+}
+
+/* People cards */
+.person-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: var(--psu-white);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+.person-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.person-card .person-info h3 {
+  margin-top: 0;
+  color: var(--psu-blue);
+}
+
+.person-card .person-info p {
+  margin: 0.3rem 0;
+}
+
+/* Publication list styling */
+.pub-entry {
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.pub-entry:last-child {
+  border-bottom: none;
+}
+
+.pub-entry .pub-title {
+  font-weight: 600;
+  color: var(--psu-blue);
+}
+
+.pub-entry .pub-authors {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.pub-entry .pub-venue {
+  font-style: italic;
+  color: #777;
+}
+
+/* Lab tables */
+.lab-table {
+  width: 100%;
+}
+
+.lab-table th {
+  background: var(--psu-blue);
+  color: var(--psu-white);
+  padding: 0.75rem;
+}
+
+.lab-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.lab-table tr:hover {
+  background: var(--psu-light-gray);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .person-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

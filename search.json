@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Louis Leblond\n\n\n\n\nTeaching Professor in Physics & Director of Online Education, Penn State University\nThe long-term objective of his education research program is to help students become better self-directed learners while they experience an education system that is fun, rewarding, inclusive and equitable. He’s always looking for collaborators to learn from and work with!\nEmail Louis"
+  },
+  {
+    "objectID": "people.html#principal-investigator",
+    "href": "people.html#principal-investigator",
+    "title": "People",
+    "section": "",
+    "text": "Louis Leblond\n\n\n\n\nTeaching Professor in Physics & Director of Online Education, Penn State University\nThe long-term objective of his education research program is to help students become better self-directed learners while they experience an education system that is fun, rewarding, inclusive and equitable. He’s always looking for collaborators to learn from and work with!\nEmail Louis"
+  },
+  {
+    "objectID": "people.html#current-students",
+    "href": "people.html#current-students",
+    "title": "People",
+    "section": "Current Students",
+    "text": "Current Students\n\n\n\n\nJulian Mintz\n\n\n\nJulian Mintz\nGraduate student in Physics\nCurrent interests: Learning strategies studies, online education, AI, accessibility, neurodivergence and inclusive teaching.\n\n\n\n\n\n\nJude Sullivan\n\n\n\nJude Sullivan\nGraduate student in Psychology and Women’s, Gender, and Sexuality Studies\nCurrent project: Barriers and enablers for non-traditional adult learners in asynchronous physics courses.\n\n\n\n\n\n\nAshlyn Leary\n\n\n\nAshlyn Leary\nUndergraduate student, Lehigh University – Physics, Sociology, and Data Science minor\nCurrent project: Barriers and enablers for non-traditional adult learners in asynchronous physics courses.\n\n\n\n\n\n\nHeer Patel\n\n\n\nHeer Patel\nUndergraduate student, Penn State University\nCurrent project: Learning Strategy Survey Validation.\n\n\n\n\n\n\nTyler Lowman\n\n\n\nTyler Lowman\nGraduate student in Physics"
+  },
+  {
+    "objectID": "people.html#former-students",
+    "href": "people.html#former-students",
+    "title": "People",
+    "section": "Former Students",
+    "text": "Former Students\n\n\n\n\nMeghan Ishler\n\n\n\nMeghan Ishler\nB.Sc. 2025, Physics and Mathematics\nNow: Graduate student in Mathematics Education at New Hampshire University. Project: Impact of learning strategies in online versus in-person courses.\n\n\n\n\n\n\nEmma Koller\n\n\n\nEmma Koller\nB.Sc. 2020, Physics and Astrophysics\nProject: Study of efficacy of hands-on laboratories in online courses.\n\n\n\n\n\n\nMar Alegre\n\n\n\nMar Alegre\nM.S. 2019\nWork on attitude surveys in introductory physics courses. ANOVA analysis combining CLASS, modified FCI and course grade."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications, Posters & Talks",
+    "section": "",
+    "text": "2025 APS Global Summit – Leblond [PDF]"
+  },
+  {
+    "objectID": "publications.html#recent-talks",
+    "href": "publications.html#recent-talks",
+    "title": "Publications, Posters & Talks",
+    "section": "",
+    "text": "2025 APS Global Summit – Leblond [PDF]"
+  },
+  {
+    "objectID": "publications.html#papers",
+    "href": "publications.html#papers",
+    "title": "Publications, Posters & Talks",
+    "section": "Papers",
+    "text": "Papers\n\nUsing digital prompts to support physics students’ self-regulated learning\nLeblond, L., Wang, Y., Malcos, J., and Sperling, R.\nPhys. Rev. Phys. Educ. Res. 22, 010114, 2026\n[Journal]\n\n\nRASE: Modeling cumulative disadvantage due to marginalized group status in academia\nShandera, S., Matsick, J. L., Hunter, D. R., & Leblond, L.\nPLOS ONE, 16(12), e0260567\n[Journal]\n\n\nDesigning Laboratories for Online Instruction using the iOLab Device\nLouis Leblond and Melissa Hicks\nThe Physics Teacher 59(5), 351–355\n[arXiv]\n\n\nMastering Physics Efficacy Report\nChristine Leow, Kenneth Lee, Yun Jin Rho, Louis Leblond, Eric Hudson\nPresented at AERA, 2018\n[Correlational Study (PDF)] [Longitudinal Study (PDF)]"
+  },
+  {
+    "objectID": "publications.html#posters",
+    "href": "publications.html#posters",
+    "title": "Publications, Posters & Talks",
+    "section": "Posters",
+    "text": "Posters\n\nExploring Undergraduate Students’ Experiences with Standards-Based Grading\nRuss deForest, Debbie Gaydos, Neil Hatfield, Eric Hudson, Joe Houck, Louis Leblond and Michael Steward\nPresented at RUME 24 and PERC 24\n[Poster (PDF)]\n\n\nThe Differential Impact of Instructors on Students Attitudes by Gender\nMar Alegre, Nicholas Atkinson, Eric Hudson and Louis Leblond\nPresented at SABER West, Jan 2024\n[Poster (PDF)]\n\n\nOpen-ended, Investigative E&M Labs with the iOLab\nLouis Leblond, Eric Hudson\nPresented at AAPT Summer 2017\n[Poster (PDF)]"
+  },
+  {
+    "objectID": "publications.html#more",
+    "href": "publications.html#more",
+    "title": "Publications, Posters & Talks",
+    "section": "More",
+    "text": "More\n\narXiv publications\nGoogle Scholar"
+  },
+  {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "All notable changes to the website project are documented here. This file serves as portable long-term memory across development sessions. Update it after every meaningful unit of work.\n\n\n\n\nInitialized git repo and pushed source to GitHub: lul29/lul29.github.io (user page, will serve at https://lul29.github.io once Pages is enabled)\nAdded .github/workflows/publish.yml: GitHub Action renders Quarto and publishes built site to a gh-pages branch on every push to main (uses quarto-dev/quarto-actions)\nSite is intentionally NOT live yet – Pages source must be set to the gh-pages branch in repo Settings to publish (held back for cosmetic work)\nFixed contact email: npb2@psu.edu -&gt; lul29@psu.edu in _quarto.yml navbar and people.qmd\n\n\n\n\n\n\nCreated Quarto website replacing WordPress site at sites.psu.edu/lleblond/\nFour pages: Home, People, Publications, iOLab\nPenn State navy/blue color scheme with cosmo theme\nCustom CSS: hero section, card grid, person cards with circular photos, publication entries\nAll content migrated from old WordPress site\nLocal images for all people photos (no more hotlinking from PSU servers)\nPeople: Louis Leblond (PI), Julian Mintz, Jude Sullivan, Ashlyn Leary, Heer Patel, Tyler Lowman (current); Meghan Ishler, Emma Koller, Mar Alegre (former)\nPublications: 4 papers, 3 posters, 1 talk, links to arXiv and Google Scholar\niOLab: full lab tables for Phys 211 (Mechanics) and Phys 212 (E&M) with download links\n\n\n\n\n\n(Record things that didn’t work so future sessions don’t re-attempt them)\n\nsubtitle in _quarto.yml: Not a valid property under website:. Quarto validation rejects it. Use a combined title string instead.\n\n\n\n\n\n\nLab material download links (docx, zip) still point to sites.psu.edu (will break if old site is taken down)\nPoster/talk PDF links still point to sites.psu.edu\nNo hosting set up yet (GitHub Pages, Netlify, etc.)\nTyler Lowman’s project description is blank (needs input)"
+  },
+  {
+    "objectID": "CHANGELOG.html#git-init-github-pages-deploy-setup",
+    "href": "CHANGELOG.html#git-init-github-pages-deploy-setup",
+    "title": "Changelog",
+    "section": "",
+    "text": "Initialized git repo and pushed source to GitHub: lul29/lul29.github.io (user page, will serve at https://lul29.github.io once Pages is enabled)\nAdded .github/workflows/publish.yml: GitHub Action renders Quarto and publishes built site to a gh-pages branch on every push to main (uses quarto-dev/quarto-actions)\nSite is intentionally NOT live yet – Pages source must be set to the gh-pages branch in repo Settings to publish (held back for cosmetic work)\nFixed contact email: npb2@psu.edu -&gt; lul29@psu.edu in _quarto.yml navbar and people.qmd"
+  },
+  {
+    "objectID": "CHANGELOG.html#initial-quarto-site",
+    "href": "CHANGELOG.html#initial-quarto-site",
+    "title": "Changelog",
+    "section": "",
+    "text": "Created Quarto website replacing WordPress site at sites.psu.edu/lleblond/\nFour pages: Home, People, Publications, iOLab\nPenn State navy/blue color scheme with cosmo theme\nCustom CSS: hero section, card grid, person cards with circular photos, publication entries\nAll content migrated from old WordPress site\nLocal images for all people photos (no more hotlinking from PSU servers)\nPeople: Louis Leblond (PI), Julian Mintz, Jude Sullivan, Ashlyn Leary, Heer Patel, Tyler Lowman (current); Meghan Ishler, Emma Koller, Mar Alegre (former)\nPublications: 4 papers, 3 posters, 1 talk, links to arXiv and Google Scholar\niOLab: full lab tables for Phys 211 (Mechanics) and Phys 212 (E&M) with download links"
+  },
+  {
+    "objectID": "CHANGELOG.html#failed-approaches-dead-ends",
+    "href": "CHANGELOG.html#failed-approaches-dead-ends",
+    "title": "Changelog",
+    "section": "",
+    "text": "(Record things that didn’t work so future sessions don’t re-attempt them)\n\nsubtitle in _quarto.yml: Not a valid property under website:. Quarto validation rejects it. Use a combined title string instead."
+  },
+  {
+    "objectID": "CHANGELOG.html#known-limitations",
+    "href": "CHANGELOG.html#known-limitations",
+    "title": "Changelog",
+    "section": "",
+    "text": "Lab material download links (docx, zip) still point to sites.psu.edu (will break if old site is taken down)\nPoster/talk PDF links still point to sites.psu.edu\nNo hosting set up yet (GitHub Pages, Netlify, etc.)\nTyler Lowman’s project description is blank (needs input)"
+  },
+  {
+    "objectID": "iolab.html",
+    "href": "iolab.html",
+    "title": "iOLab",
+    "section": "",
+    "text": "The iOLab is a handheld wireless lab device created by Mats Selen and Tim Stelzer at UIUC. Penn State has used it since 2015 in the physics-for-majors course sequence. It is available for purchase or rental from MacMillan.\n\n\n\n\n\n\nTipDownload Lab Materials\n\n\n\n\nMechanics Labs (zip)\nE&M Labs (zip)\nPaper describing objectives and structure (arXiv)"
+  },
+  {
+    "objectID": "iolab.html#overview",
+    "href": "iolab.html#overview",
+    "title": "iOLab",
+    "section": "",
+    "text": "The iOLab is a handheld wireless lab device created by Mats Selen and Tim Stelzer at UIUC. Penn State has used it since 2015 in the physics-for-majors course sequence. It is available for purchase or rental from MacMillan.\n\n\n\n\n\n\nTipDownload Lab Materials\n\n\n\n\nMechanics Labs (zip)\nE&M Labs (zip)\nPaper describing objectives and structure (arXiv)"
+  },
+  {
+    "objectID": "iolab.html#online-instruction",
+    "href": "iolab.html#online-instruction",
+    "title": "iOLab",
+    "section": "Online Instruction",
+    "text": "Online Instruction\nStarting summer 2018, Phys 211 and Phys 212 have been offered completely online with 20–50 students per semester. The majority are adult learners working on software engineering degrees through Penn State World Campus.\nThe iOLab creates a lab experience similar to residential instruction using PASCO equipment. Students perform labs at home individually, submit lab reports, and have multiple communication channels for group work and instructor feedback.\nLab objectives focus on data sense-making and observational experimental skills, influenced by the ISLE framework. Students use visual tools such as box plots and scatterplots, along with the web-based application StatKey for data visualization.\nCourses include 5–6 proctored exams including pre/post FCI and BEMA."
+  },
+  {
+    "objectID": "iolab.html#phys-211-mechanics-calc-based",
+    "href": "iolab.html#phys-211-mechanics-calc-based",
+    "title": "iOLab",
+    "section": "Phys 211: Mechanics (calc-based)",
+    "text": "Phys 211: Mechanics (calc-based)\nEquipment: iOLab (includes spring)\nSoftware: iOLab software, Excel, Word, StatKey\n\n\n\nLab\nTitle\nMaterials\n\n\n\n\n1\nGetting Moving (introductory, step-by-step)\ndocx\n\n\n2\nSlowing Down (first open-ended lab, ISLE rubric)\ndocx\n\n\n3\nA Model for Kinetic Friction, Part 1\ndocx\n\n\n4\nA Model for Kinetic Friction, Part 2\ndocx\n\n\n5\nHooke’s Law, Part A\ndocx\n\n\n6\nHooke’s Law, Part B\ndocx\n\n\n7\nRotation\ndocx\n\n\n8\nOther Mechanical Sensors\ndocx"
+  },
+  {
+    "objectID": "iolab.html#phys-212-electricity-magnetism-calc-based",
+    "href": "iolab.html#phys-212-electricity-magnetism-calc-based",
+    "title": "iOLab",
+    "section": "Phys 212: Electricity & Magnetism (calc-based)",
+    "text": "Phys 212: Electricity & Magnetism (calc-based)\nEquipment: iOLab + PASCO Desktop Electricity Kit\nSoftware: iOLab software, Excel, Word, StatKey + PhET simulations\n\n\n\nLab\nTitle\nMaterials\n\n\n\n\n1\nStatic Electricity\ndocx\n\n\n2a\nElectric Field (virtual, PhET)\ndocx\n\n\n2b\nElectric Field (virtual, PhET)\ndocx\n\n\n3\nHow a Capacitor Works\ndocx\n\n\n4\nResistance and Ohm’s Law\ndocx\n\n\n5\nUnderstanding RC Circuits\ndocx\n\n\n6\nMagnetic Fields\ndocx\n\n\n7\nFaraday’s Law\ndocx\n\n\n8\nRLC Circuits (virtual, PhET)\ndocx"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Education Research Group",
+    "section": "",
+    "text": "We are an education research group in the Department of Physics at Penn State University. Our long-term objective is to help students become better self-directed learners while they experience an education system that is fun, rewarding, inclusive, and equitable."
+  },
+  {
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "Education Research Group",
+    "section": "",
+    "text": "We are an education research group in the Department of Physics at Penn State University. Our long-term objective is to help students become better self-directed learners while they experience an education system that is fun, rewarding, inclusive, and equitable."
+  },
+  {
+    "objectID": "index.html#collaborative-projects",
+    "href": "index.html#collaborative-projects",
+    "title": "Education Research Group",
+    "section": "Collaborative Projects",
+    "text": "Collaborative Projects\n\n\nAlternative Grading\nWe are developing and studying alternative grading systems to create more equitable assessment practices.\nLearn more\n\n\nThe Nudge / StSRL Project\nSuccess through Self-Regulated Learning – an NSF Level 2 IUSE project (Award #2337176) studying how digital prompts can support students’ self-regulated learning.\nLearn more"
+  },
+  {
+    "objectID": "index.html#research-focus",
+    "href": "index.html#research-focus",
+    "title": "Education Research Group",
+    "section": "Research Focus",
+    "text": "Research Focus\nOur research centers on innovative learning tools in online education, particularly science laboratories in asynchronous introductory physics courses delivered through Penn State World Campus. Our courses target non-traditional adult learners.\n\nKey Questions\n\nWhat course components are most effective for online learners?\nHow effective are online labs conducted in home settings?\nWhat strategies optimize student engagement in asynchronous courses?\nHow do self-regulatory learning, critical thinking, and communication skills develop in online settings?\n\n\n\n\niOLab device"
+  }
+]
