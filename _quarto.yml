@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Louis Leblond -- Education Research Group"
+  navbar:
+    background: "#001E44"
+    foreground: "#FFFFFF"
+    left:
+      - text: "What We Do"
+        href: index.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "iOLab"
+        href: iolab.qmd
+    right:
+      - icon: envelope
+        href: mailto:lul29@psu.edu
+        aria-label: Email
+      - icon: google
+        href: https://scholar.google.com/citations?user=bIXsdYYAAAAJ&hl=en&oi=ao
+        aria-label: Google Scholar
+  page-footer:
+    center: "Louis Leblond -- Education Research Group, Penn State University"
+
+format:
+  html:
+    theme:
+      light: cosmo
+    css: styles.css
+    toc: true

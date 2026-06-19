@@ -1,0 +1,66 @@
+---
+title: "Publications, Posters & Talks"
+---
+
+## Recent Talks
+
+- **2025 APS Global Summit** -- Leblond
+  [[PDF](https://sites.psu.edu/lleblond/files/2025/03/2025_APS_Leblond.pdf)]
+
+## Papers
+
+::: {.pub-entry}
+[Using digital prompts to support physics students' self-regulated learning]{.pub-title}\
+[Leblond, L., Wang, Y., Malcos, J., and Sperling, R.]{.pub-authors}\
+[*Phys. Rev. Phys. Educ. Res.* 22, 010114, 2026]{.pub-venue}\
+[[Journal](https://journals.aps.org/prper/abstract/10.1103/cftx-hfw5)]
+:::
+
+::: {.pub-entry}
+[RASE: Modeling cumulative disadvantage due to marginalized group status in academia]{.pub-title}\
+[Shandera, S., Matsick, J. L., Hunter, D. R., & Leblond, L.]{.pub-authors}\
+[*PLOS ONE*, 16(12), e0260567]{.pub-venue}\
+[[Journal](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0260567)]
+:::
+
+::: {.pub-entry}
+[Designing Laboratories for Online Instruction using the iOLab Device]{.pub-title}\
+[Louis Leblond and Melissa Hicks]{.pub-authors}\
+[*The Physics Teacher* 59(5), 351--355]{.pub-venue}\
+[[arXiv](https://arxiv.org/abs/2006.15181)]
+:::
+
+::: {.pub-entry}
+[Mastering Physics Efficacy Report]{.pub-title}\
+[Christine Leow, Kenneth Lee, Yun Jin Rho, Louis Leblond, Eric Hudson]{.pub-authors}\
+[Presented at AERA, 2018]{.pub-venue}\
+[[Correlational Study (PDF)](https://www.pearson.com/content/dam/one-dot-com/one-dot-com/global/Files/efficacy-and-research/reports/Pearson-Mastering-Physics-Correlational-Technical-Report.pdf)] [[Longitudinal Study (PDF)](https://www.pearson.com/content/dam/one-dot-com/one-dot-com/global/Files/efficacy-and-research/reports/Pearson-Mastering-Physics-Longitudinal-Technical-Report.pdf)]
+:::
+
+## Posters
+
+::: {.pub-entry}
+[Exploring Undergraduate Students' Experiences with Standards-Based Grading]{.pub-title}\
+[Russ deForest, Debbie Gaydos, Neil Hatfield, Eric Hudson, Joe Houck, Louis Leblond and Michael Steward]{.pub-authors}\
+[Presented at RUME 24 and PERC 24]{.pub-venue}\
+[[Poster (PDF)](https://sites.psu.edu/lleblond/files/2024/07/PERC2024_poster.pdf)]
+:::
+
+::: {.pub-entry}
+[The Differential Impact of Instructors on Students Attitudes by Gender]{.pub-title}\
+[Mar Alegre, Nicholas Atkinson, Eric Hudson and Louis Leblond]{.pub-authors}\
+[Presented at SABER West, Jan 2024]{.pub-venue}\
+[[Poster (PDF)](https://sites.psu.edu/lleblond/files/2024/02/GenderDifference-e5e41c61ecf65f93.pdf)]
+:::
+
+::: {.pub-entry}
+[Open-ended, Investigative E&M Labs with the iOLab]{.pub-title}\
+[Louis Leblond, Eric Hudson]{.pub-authors}\
+[Presented at AAPT Summer 2017]{.pub-venue}\
+[[Poster (PDF)](https://sites.psu.edu/lleblond/files/2019/08/poster.pdf)]
+:::
+
+## More
+
+- [arXiv publications](https://arxiv.org/search/?query=Leblond%2C+Louis&searchtype=all&source=header)
+- [Google Scholar](https://scholar.google.com/citations?user=bIXsdYYAAAAJ&hl=en&oi=ao)

@@ -1,0 +1,136 @@
+---
+title: "People"
+---
+
+## Principal Investigator
+
+::: {.person-card}
+
+![Louis Leblond](images/people/louis-leblond.jpg)
+
+::: {.person-info}
+### Louis Leblond
+
+**Teaching Professor in Physics & Director of Online Education**, Penn State University
+
+The long-term objective of his education research program is to help students become better self-directed learners while they experience an education system that is fun, rewarding, inclusive and equitable. He's always looking for collaborators to learn from and work with!
+
+[Email Louis](mailto:lul29@psu.edu){.btn .btn-outline-primary .btn-sm}
+:::
+
+:::
+
+## Current Students
+
+::: {.person-card}
+
+![Julian Mintz](images/people/julian-mintz.jpg)
+
+::: {.person-info}
+### Julian Mintz
+
+**Graduate student in Physics**
+
+Current interests: Learning strategies studies, online education, AI, accessibility, neurodivergence and inclusive teaching.
+:::
+
+:::
+
+::: {.person-card}
+
+![Jude Sullivan](images/people/jude-sullivan.jpg)
+
+::: {.person-info}
+### Jude Sullivan
+
+**Graduate student in Psychology and Women's, Gender, and Sexuality Studies**
+
+Current project: Barriers and enablers for non-traditional adult learners in asynchronous physics courses.
+:::
+
+:::
+
+::: {.person-card}
+
+![Ashlyn Leary](images/people/ashlyn-leary.jpg)
+
+::: {.person-info}
+### Ashlyn Leary
+
+**Undergraduate student, Lehigh University** -- Physics, Sociology, and Data Science minor
+
+Current project: Barriers and enablers for non-traditional adult learners in asynchronous physics courses.
+:::
+
+:::
+
+::: {.person-card}
+
+![Heer Patel](images/people/heer-patel.jpeg)
+
+::: {.person-info}
+### Heer Patel
+
+**Undergraduate student, Penn State University**
+
+Current project: Learning Strategy Survey Validation.
+:::
+
+:::
+
+::: {.person-card}
+
+![Tyler Lowman](images/people/tyler-lowman.jpg)
+
+::: {.person-info}
+### Tyler Lowman
+
+**Graduate student in Physics**
+
+:::
+
+:::
+
+## Former Students
+
+::: {.person-card}
+
+![Meghan Ishler](images/people/meghan-ishler.png)
+
+::: {.person-info}
+### Meghan Ishler
+
+**B.Sc. 2025**, Physics and Mathematics
+
+Now: Graduate student in Mathematics Education at New Hampshire University. Project: Impact of learning strategies in online versus in-person courses.
+:::
+
+:::
+
+::: {.person-card}
+
+![Emma Koller](images/people/emma-koller.png)
+
+::: {.person-info}
+### Emma Koller
+
+**B.Sc. 2020**, Physics and Astrophysics
+
+Project: Study of efficacy of hands-on laboratories in online courses.
+:::
+
+:::
+
+::: {.person-card}
+
+![Mar Alegre](images/people/mar-alegre.png)
+
+::: {.person-info}
+### Mar Alegre
+
+**M.S. 2019**
+
+Work on attitude surveys in introductory physics courses. ANOVA analysis combining CLASS, modified FCI and course grade.
+:::
+
+:::
