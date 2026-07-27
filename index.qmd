@@ -1,0 +1,57 @@
+---
+title: "Education Research Group"
+pagetitle: "Louis Leblond -- Education Research Group"
+toc: false
+---
+
+::: {.hero-section}
+
+## Helping students become self-directed learners
+
+We are a physics education research group in the **Department of Physics at Penn State University**. We study how students learn physics -- especially in asynchronous online courses, and especially the non-traditional adult learners who take them -- so that they experience an education system that is fun, rewarding, inclusive, and equitable.
+
+[Meet the team](people.qmd){.btn .hero-btn} [Read our work](publications.qmd){.btn .hero-btn}
+
+:::
+
+## Research Areas
+
+::: {.card-grid}
+
+::: {.card}
+### Online Physics & Adult Learners
+
+Who succeeds in asynchronous online physics, and why? Through interviews with students (in collaboration with Arizona State University), a decade of historical course data, and attitude surveys, we study the barriers and enablers that shape success for adult learners balancing coursework with work and caregiving -- including how proctoring, academic integrity, and AI play out in online courses.
+
+*Supported by NSF ECR:BCSER Award [#2422432](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2422432).*
+:::
+
+::: {.card}
+### Self-Regulated Learning
+
+How can we help students plan, monitor, and reflect on their own learning? The *Success through Self-Regulated Learning* (Nudge/StSRL) project studies how digital prompts embedded in large STEM courses support students' self-regulated learning, in collaboration with Rayne Sperling's group in Educational Psychology.
+
+*An NSF Level 2 IUSE project, Award [#2337176](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2337176).*
+
+[Project site](https://sites.psu.edu/stsrl/){.btn .btn-primary .btn-sm}
+:::
+
+::: {.card}
+### AI in Education
+
+Generative AI is changing both how students study and how we do research. We are piloting AI tutors in introductory physics and developing methods for using large language models in qualitative coding.
+:::
+
+::: {.card}
+### Assessment & Grading
+
+We design and study assessment practices that are more equitable and more meaningful: alternative and standards-based grading, oral exams in online courses, and a study of graduate qualifying exam reform.
+
+[Alternative grading](https://sites.psu.edu/grade){.btn .btn-primary .btn-sm}
+:::
+
+:::
+
+## Funding
+
+Our work is supported by the National Science Foundation (ECR:BCSER Award [#2422432](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2422432) and IUSE Award [#2337176](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2337176)). Any opinions, findings, and conclusions are those of the authors and do not necessarily reflect the views of the NSF.
