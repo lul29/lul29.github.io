@@ -8,7 +8,7 @@ toc: false
 
 ## Helping students become self-directed learners
 
-We are a physics education research group in the **Department of Physics at Penn State University**. We consider that higher education courses should help students become better learners, better problem-solvers and better critical thinkers. At the same time, students should experience an education system that is fun, rewarding, inclusive, and equitable.
+We are a physics education research group in the **Department of Physics at Penn State University**. We believe higher education courses should help students become better learners, better problem-solvers and better critical thinkers. At the same time, students should experience an education system that is fun, rewarding, inclusive, and equitable.
 
 [Meet the team](people.qmd){.btn .hero-btn} [Read our work](publications.qmd){.btn .hero-btn}
 
