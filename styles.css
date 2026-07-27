@@ -1,0 +1,213 @@
+/* Penn State brand colors */
+:root {
+  --psu-blue: #001E44;
+  --psu-light-blue: #009CDE;
+  --psu-white: #FFFFFF;
+  --psu-light-gray: #F5F5F5;
+}
+
+/* Section headings: accent underline instead of full-width rule */
+h2 {
+  border-bottom: none;
+  padding-bottom: 0.4rem;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 3rem;
+  height: 3px;
+  background: var(--psu-light-blue);
+  border-radius: 2px;
+}
+
+/* Hero section on homepage */
+.hero-section {
+  background: linear-gradient(135deg, var(--psu-blue) 0%, #1a3a63 100%);
+  color: var(--psu-white);
+  padding: 3.5rem 2.5rem;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
+  border-left: 6px solid var(--psu-light-blue);
+}
+
+.hero-section h2 {
+  color: var(--psu-white);
+  font-size: 2rem;
+  border-bottom: none;
+  margin-top: 0;
+}
+
+.hero-section h2::after {
+  background: var(--psu-light-blue);
+  width: 4rem;
+}
+
+.hero-section p {
+  font-size: 1.15rem;
+  line-height: 1.75;
+  max-width: 46rem;
+}
+
+.hero-section strong {
+  color: #bfe6ff;
+}
+
+.hero-btn {
+  color: var(--psu-white);
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.hero-btn:hover {
+  background: var(--psu-white);
+  color: var(--psu-blue);
+  border-color: var(--psu-white);
+}
+
+/* PSU-blue buttons */
+.btn-primary {
+  background-color: var(--psu-blue);
+  border-color: var(--psu-blue);
+}
+
+.btn-primary:hover {
+  background-color: var(--psu-light-blue);
+  border-color: var(--psu-light-blue);
+}
+
+/* Card layout for research areas and people */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  background: var(--psu-white);
+  border: 1px solid #e0e0e0;
+  border-top: 4px solid var(--psu-light-blue);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+
+.card h3 {
+  color: var(--psu-blue);
+  margin-top: 0;
+}
+
+.card p:last-of-type em {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* People cards */
+.person-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: var(--psu-white);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+/* Quarto wraps standalone images in a centered <figure> and turns the alt
+   text into a <figcaption>. Neutralize that wrapper inside person cards so the
+   photo behaves as a simple flex child, and hide the auto-generated caption. */
+.person-card .quarto-figure,
+.person-card figure,
+.person-card figure > p {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.person-card figcaption {
+  display: none;
+}
+
+.person-card img {
+  width: 120px !important;
+  height: 120px !important;
+  max-width: none;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.person-card .person-info h3 {
+  margin-top: 0;
+  color: var(--psu-blue);
+}
+
+.person-card .person-info p {
+  margin: 0.3rem 0;
+}
+
+/* Publication list styling */
+.pub-entry {
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.pub-entry:last-child {
+  border-bottom: none;
+}
+
+.pub-entry .pub-title {
+  font-weight: 600;
+  color: var(--psu-blue);
+}
+
+.pub-entry .pub-authors {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.pub-entry .pub-venue {
+  font-style: italic;
+  color: #777;
+}
+
+/* Lab tables */
+.lab-table {
+  width: 100%;
+}
+
+.lab-table th {
+  background: var(--psu-blue);
+  color: var(--psu-white);
+  padding: 0.75rem;
+}
+
+.lab-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.lab-table tr:hover {
+  background: var(--psu-light-gray);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .person-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
