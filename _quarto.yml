@@ -32,3 +32,5 @@ format:
       light: cosmo
     css: styles.css
     toc: true
+    grid:
+      body-width: 1000px
