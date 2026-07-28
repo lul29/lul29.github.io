@@ -1,5 +1,5 @@
 ---
-pagetitle: "Louis Leblond -- Education Research Group"
+pagetitle: "Louis Leblond -- Physics Education Research Group"
 toc: false
 ---
 

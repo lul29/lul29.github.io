@@ -5,7 +5,7 @@ project:
     - "*.qmd"
 
 website:
-  title: "Louis Leblond -- Education Research Group"
+  title: "Louis Leblond -- Physics Education Research Group"
   navbar:
     background: "#001E44"
     foreground: "#FFFFFF"
@@ -24,7 +24,7 @@ website:
         href: https://scholar.google.com/citations?hl=en&user=bIXsdYYAAAAJ&view_op=list_works&sortby=pubdate
         aria-label: Google Scholar
   page-footer:
-    center: "Louis Leblond -- Education Research Group, Penn State University"
+    center: "Louis Leblond -- Physics Education Research Group, Penn State University"
 
 format:
   html:
